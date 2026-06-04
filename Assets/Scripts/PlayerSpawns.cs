@@ -40,4 +40,13 @@ public class PlayerSpawns : MonoBehaviour
 
         rb.linearVelocity = Vector2.zero;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("FallZone"))
+    {
+        fallen = true;
+        Debug.Log("Você caiu!");
+    }
+}
 }
