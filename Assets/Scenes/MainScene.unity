@@ -522,6 +522,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   player: {fileID: 2020440551}
   smoothSpeed: 5
+--- !u!1 &774126243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774126244}
+  m_Layer: 0
+  m_Name: mainSpawn
+  m_TagString: Spawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &774126244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774126243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10, y: 2.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2020440547
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +566,7 @@ GameObject:
   - component: {fileID: 2020440549}
   - component: {fileID: 2020440548}
   - component: {fileID: 2020440552}
+  - component: {fileID: 2020440553}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -703,7 +735,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
   jumpForce: 8
-  respawnPoint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020440553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020440547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd91878dd03dfa46ad8dab6e59b24b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawns
+  mainSpawn: {fileID: 774126244}
 --- !u!1 &2128617616
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,3 +895,4 @@ SceneRoots:
   - {fileID: 2020440551}
   - {fileID: 28515493}
   - {fileID: 405861371}
+  - {fileID: 774126244}
