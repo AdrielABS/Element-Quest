@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private Collider2D playerCollider;
     private Collider2D currentPlatform;
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
 
     private bool isGrounded;
 
@@ -18,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -49,6 +53,24 @@ public class PlayerMovement : MonoBehaviour
 
         rb.linearVelocity =
             new Vector2(move * speed, rb.linearVelocity.y);
+
+        if (move != 0)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+        }
+        if (move < 0)
+        {
+        spriteRenderer.flipX = true;
+        }
+        else if (move > 0)
+        {
+        spriteRenderer.flipX = false;
+        }
+
     }
 
     void Jump()
@@ -75,7 +97,8 @@ public class PlayerMovement : MonoBehaviour
             playerCollider,
             currentPlatform,
             true);
-
+    rb.linearVelocity =
+        new Vector2(rb.linearVelocity.x, -2f);
         yield return new WaitForSeconds(0.5f);
 
         Physics2D.IgnoreCollision(
