@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 9260e181c02907244936dc17087f6c70
+guid: 6ff4daba521a115419c96b8a105fe904
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3794606673935803786
-    second: parado1_0
+      213: 2158195087027800876
+    second: flecha_quebrando8_0
   - first:
-      213: -1942159319659165370
-    second: parado1_1
+      213: 2916011833652673443
+    second: flecha_quebrando8_1
   - first:
-      213: 5565128677380855452
-    second: parado1_2
+      213: 4735055160983974130
+    second: flecha_quebrando8_2
   - first:
-      213: 7973306020506656341
-    second: parado1_3
-  - first:
-      213: -8721967592196404648
-    second: parado1_4
+      213: -6075140596620531707
+    second: flecha_quebrando8_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +57,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -125,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parado1_0
+      name: flecha_quebrando8_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 257
-        width: 85
-        height: 240
+        x: 18
+        y: 16
+        width: 22
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85254e4aa629a430800000000000000
-      internalID: 3794606673935803786
+      spriteID: c2b094e3ff273fd10800000000000000
+      internalID: 2158195087027800876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_1
+      name: flecha_quebrando8_1
       rect:
         serializedVersion: 2
-        x: 333
-        y: 257
-        width: 85
-        height: 240
+        x: 37
+        y: 17
+        width: 29
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649408683601c05e0800000000000000
-      internalID: -1942159319659165370
+      spriteID: 3abf3b12051c77820800000000000000
+      internalID: 2916011833652673443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_2
+      name: flecha_quebrando8_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 85
-        height: 240
+        x: 65
+        y: 19
+        width: 31
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9610a8fb0f4b3d40800000000000000
-      internalID: 5565128677380855452
+      spriteID: 2f0745ed49b46b140800000000000000
+      internalID: 4735055160983974130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_3
+      name: flecha_quebrando8_3
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1
-        width: 85
-        height: 240
+        x: 93
+        y: 17
+        width: 20
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e58cdc49fd6ae60800000000000000
-      internalID: 7973306020506656341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parado1_4
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 1
-        width: 85
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85a0aa49fa855f680800000000000000
-      internalID: -8721967592196404648
+      spriteID: 508e0e990d3c0bba0800000000000000
+      internalID: -6075140596620531707
       vertices: []
       indices: 
       edges: []
@@ -248,11 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parado1_0: 3794606673935803786
-      parado1_1: -1942159319659165370
-      parado1_2: 5565128677380855452
-      parado1_3: 7973306020506656341
-      parado1_4: -8721967592196404648
+      flecha_quebrando8_0: 2158195087027800876
+      flecha_quebrando8_1: 2916011833652673443
+      flecha_quebrando8_2: 4735055160983974130
+      flecha_quebrando8_3: -6075140596620531707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

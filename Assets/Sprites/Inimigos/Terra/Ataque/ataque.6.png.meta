@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 9260e181c02907244936dc17087f6c70
+guid: 6f16778367b35ce428f3bbd970ff4c12
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3794606673935803786
-    second: parado1_0
+      213: 8786585903281628638
+    second: ataque.6_0
   - first:
-      213: -1942159319659165370
-    second: parado1_1
+      213: 4334420410033936839
+    second: ataque.6_1
   - first:
-      213: 5565128677380855452
-    second: parado1_2
+      213: -5173433321376673505
+    second: ataque.6_2
   - first:
-      213: 7973306020506656341
-    second: parado1_3
+      213: -1480043146025331368
+    second: ataque.6_3
   - first:
-      213: -8721967592196404648
-    second: parado1_4
+      213: -1410236046342094091
+    second: ataque.6_4
+  - first:
+      213: -4616799592246228974
+    second: ataque.6_5
+  - first:
+      213: -2655000884313046785
+    second: ataque.6_6
+  - first:
+      213: -8788464308462263020
+    second: ataque.6_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +69,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -125,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parado1_0
+      name: ataque.6_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 257
-        width: 85
-        height: 240
+        x: 30
+        y: 205
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85254e4aa629a430800000000000000
-      internalID: 3794606673935803786
+      spriteID: ed56e81635930f970800000000000000
+      internalID: 8786585903281628638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_1
+      name: ataque.6_1
       rect:
         serializedVersion: 2
-        x: 333
-        y: 257
-        width: 85
-        height: 240
+        x: 35
+        y: 118
+        width: 245
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649408683601c05e0800000000000000
-      internalID: -1942159319659165370
+      spriteID: 7c9964fe564f62c30800000000000000
+      internalID: 4334420410033936839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_2
+      name: ataque.6_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 85
-        height: 240
+        x: 13
+        y: 181
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9610a8fb0f4b3d40800000000000000
-      internalID: 5565128677380855452
+      spriteID: f119c22edc54438b0800000000000000
+      internalID: -5173433321376673505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_3
+      name: ataque.6_3
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1
-        width: 85
-        height: 240
+        x: 16
+        y: 156
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e58cdc49fd6ae60800000000000000
-      internalID: 7973306020506656341
+      spriteID: 85598eca994d57be0800000000000000
+      internalID: -1480043146025331368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_4
+      name: ataque.6_4
       rect:
         serializedVersion: 2
-        x: 589
-        y: 1
-        width: 85
-        height: 240
+        x: 28
+        y: 161
+        width: 10
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +237,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85a0aa49fa855f680800000000000000
-      internalID: -8721967592196404648
+      spriteID: 5f20450a9c5dd6ce0800000000000000
+      internalID: -1410236046342094091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque.6_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 141
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218cef05b35ddefb0800000000000000
+      internalID: -4616799592246228974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque.6_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 128
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff04c2433ca872bd0800000000000000
+      internalID: -2655000884313046785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque.6_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 137
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41568e4564a190680800000000000000
+      internalID: -8788464308462263020
       vertices: []
       indices: 
       edges: []
@@ -248,11 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parado1_0: 3794606673935803786
-      parado1_1: -1942159319659165370
-      parado1_2: 5565128677380855452
-      parado1_3: 7973306020506656341
-      parado1_4: -8721967592196404648
+      ataque.6_0: 8786585903281628638
+      ataque.6_1: 4334420410033936839
+      ataque.6_2: -5173433321376673505
+      ataque.6_3: -1480043146025331368
+      ataque.6_4: -1410236046342094091
+      ataque.6_5: -4616799592246228974
+      ataque.6_6: -2655000884313046785
+      ataque.6_7: -8788464308462263020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
