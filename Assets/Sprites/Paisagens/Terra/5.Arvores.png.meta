@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 9260e181c02907244936dc17087f6c70
+guid: cdfbaf63753c43a4ca16f66361d2e960
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3794606673935803786
-    second: parado1_0
+      213: 5440496713295272755
+    second: 5.Arvores_0
   - first:
-      213: -1942159319659165370
-    second: parado1_1
+      213: -6549126615367611337
+    second: 5.Arvores_1
   - first:
-      213: 5565128677380855452
-    second: parado1_2
+      213: 1589474575922441246
+    second: 5.Arvores_2
   - first:
-      213: 7973306020506656341
-    second: parado1_3
+      213: 8054027401458722373
+    second: 5.Arvores_3
   - first:
-      213: -8721967592196404648
-    second: parado1_4
+      213: -3323750756152891164
+    second: 5.Arvores_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -125,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parado1_0
+      name: 5.Arvores_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 257
-        width: 85
-        height: 240
+        x: 23
+        y: 621
+        width: 206
+        height: 386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85254e4aa629a430800000000000000
-      internalID: 3794606673935803786
+      spriteID: 33b15ad8fe6808b40800000000000000
+      internalID: 5440496713295272755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_1
+      name: 5.Arvores_1
       rect:
         serializedVersion: 2
-        x: 333
-        y: 257
-        width: 85
-        height: 240
+        x: 1207
+        y: 708
+        width: 208
+        height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649408683601c05e0800000000000000
-      internalID: -1942159319659165370
+      spriteID: 73c05f5ca04dc15a0800000000000000
+      internalID: -6549126615367611337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_2
+      name: 5.Arvores_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 85
-        height: 240
+        x: 275
+        y: 149
+        width: 178
+        height: 423
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9610a8fb0f4b3d40800000000000000
-      internalID: 5565128677380855452
+      spriteID: e1c2f5594b2fe0610800000000000000
+      internalID: 1589474575922441246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_3
+      name: 5.Arvores_3
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1
-        width: 85
-        height: 240
+        x: 664
+        y: 310
+        width: 162
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e58cdc49fd6ae60800000000000000
-      internalID: 7973306020506656341
+      spriteID: 546a533ef37a5cf60800000000000000
+      internalID: 8054027401458722373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_4
+      name: 5.Arvores_4
       rect:
         serializedVersion: 2
-        x: 589
-        y: 1
-        width: 85
-        height: 240
+        x: 1117
+        y: 128
+        width: 221
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85a0aa49fa855f680800000000000000
-      internalID: -8721967592196404648
+      spriteID: 4e822991c4aafd1d0800000000000000
+      internalID: -3323750756152891164
       vertices: []
       indices: 
       edges: []
@@ -248,11 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parado1_0: 3794606673935803786
-      parado1_1: -1942159319659165370
-      parado1_2: 5565128677380855452
-      parado1_3: 7973306020506656341
-      parado1_4: -8721967592196404648
+      5.Arvores_0: 5440496713295272755
+      5.Arvores_1: -6549126615367611337
+      5.Arvores_2: 1589474575922441246
+      5.Arvores_3: 8054027401458722373
+      5.Arvores_4: -3323750756152891164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

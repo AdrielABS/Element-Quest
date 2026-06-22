@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 9260e181c02907244936dc17087f6c70
+guid: ebc2490feb81e3641aa00ba509fb8d93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3794606673935803786
-    second: parado1_0
+      213: 213011120772228064
+    second: 4.Arbustros_0
   - first:
-      213: -1942159319659165370
-    second: parado1_1
+      213: 9162671652059559933
+    second: 4.Arbustros_1
   - first:
-      213: 5565128677380855452
-    second: parado1_2
+      213: -6101124343349470953
+    second: 4.Arbustros_2
   - first:
-      213: 7973306020506656341
-    second: parado1_3
+      213: 7164747420267218300
+    second: 4.Arbustros_3
   - first:
-      213: -8721967592196404648
-    second: parado1_4
+      213: -7077764859880691807
+    second: 4.Arbustros_4
+  - first:
+      213: -7843101203703766016
+    second: 4.Arbustros_5
+  - first:
+      213: 7243662914153938878
+    second: 4.Arbustros_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +66,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -125,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parado1_0
+      name: 4.Arbustros_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 257
-        width: 85
-        height: 240
+        x: 0
+        y: 617
+        width: 205
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85254e4aa629a430800000000000000
-      internalID: 3794606673935803786
+      spriteID: 0e326da5c74c4f200800000000000000
+      internalID: 213011120772228064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_1
+      name: 4.Arbustros_1
       rect:
         serializedVersion: 2
-        x: 333
-        y: 257
-        width: 85
-        height: 240
+        x: 922
+        y: 711
+        width: 105
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649408683601c05e0800000000000000
-      internalID: -1942159319659165370
+      spriteID: df73d865259582f70800000000000000
+      internalID: 9162671652059559933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_2
+      name: 4.Arbustros_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 85
-        height: 240
+        x: 1129
+        y: 708
+        width: 97
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9610a8fb0f4b3d40800000000000000
-      internalID: 5565128677380855452
+      spriteID: 7199a202cb3745ba0800000000000000
+      internalID: -6101124343349470953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_3
+      name: 4.Arbustros_3
       rect:
         serializedVersion: 2
-        x: 333
-        y: 1
-        width: 85
-        height: 240
+        x: 650
+        y: 309
+        width: 182
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e58cdc49fd6ae60800000000000000
-      internalID: 7973306020506656341
+      spriteID: c758c6a71db4e6360800000000000000
+      internalID: 7164747420267218300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: parado1_4
+      name: 4.Arbustros_4
       rect:
         serializedVersion: 2
-        x: 589
-        y: 1
-        width: 85
-        height: 240
+        x: 906
+        y: 344
+        width: 106
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +234,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85a0aa49fa855f680800000000000000
-      internalID: -8721967592196404648
+      spriteID: 1a7a11b0c5ab6cd90800000000000000
+      internalID: -7077764859880691807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.Arbustros_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 259
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0046ccf7205b72390800000000000000
+      internalID: -7843101203703766016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.Arbustros_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 140
+        width: 196
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebff0d6ba09a68460800000000000000
+      internalID: 7243662914153938878
       vertices: []
       indices: 
       edges: []
@@ -248,11 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parado1_0: 3794606673935803786
-      parado1_1: -1942159319659165370
-      parado1_2: 5565128677380855452
-      parado1_3: 7973306020506656341
-      parado1_4: -8721967592196404648
+      4.Arbustros_0: 213011120772228064
+      4.Arbustros_1: 9162671652059559933
+      4.Arbustros_2: -6101124343349470953
+      4.Arbustros_3: 7164747420267218300
+      4.Arbustros_4: -7077764859880691807
+      4.Arbustros_5: -7843101203703766016
+      4.Arbustros_6: 7243662914153938878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

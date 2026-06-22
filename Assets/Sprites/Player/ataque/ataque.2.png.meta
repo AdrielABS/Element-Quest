@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 9260e181c02907244936dc17087f6c70
+guid: 9a0eb8cfbdfd68942a0cd5341c98b8a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3794606673935803786
-    second: parado1_0
-  - first:
-      213: -1942159319659165370
-    second: parado1_1
-  - first:
-      213: 5565128677380855452
-    second: parado1_2
-  - first:
-      213: 7973306020506656341
-    second: parado1_3
-  - first:
-      213: -8721967592196404648
-    second: parado1_4
+      213: -5141040526412659801
+    second: ataque.2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -125,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: parado1_0
+      name: ataque.2_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 257
-        width: 85
-        height: 240
+        x: 34
+        y: 0
+        width: 154
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,96 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85254e4aa629a430800000000000000
-      internalID: 3794606673935803786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parado1_1
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 257
-        width: 85
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 649408683601c05e0800000000000000
-      internalID: -1942159319659165370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parado1_2
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 1
-        width: 85
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9610a8fb0f4b3d40800000000000000
-      internalID: 5565128677380855452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parado1_3
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 1
-        width: 85
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55e58cdc49fd6ae60800000000000000
-      internalID: 7973306020506656341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parado1_4
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 1
-        width: 85
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85a0aa49fa855f680800000000000000
-      internalID: -8721967592196404648
+      spriteID: 7a3494f21ea57a8b0800000000000000
+      internalID: -5141040526412659801
       vertices: []
       indices: 
       edges: []
@@ -248,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      parado1_0: 3794606673935803786
-      parado1_1: -1942159319659165370
-      parado1_2: 5565128677380855452
-      parado1_3: 7973306020506656341
-      parado1_4: -8721967592196404648
+      ataque.2_0: -5141040526412659801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
