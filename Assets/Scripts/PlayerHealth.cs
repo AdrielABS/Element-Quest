@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (Health <= 0)
         {
-        playerMovement.Die();
+            playerMovement.Die();
         }
     }
     public void HearthUpdate()

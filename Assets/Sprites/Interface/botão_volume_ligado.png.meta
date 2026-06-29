@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d455ba1359390c4bb887bda78c2a81c
+guid: 5f77c278975620e488ccecc061697d58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7220296534668844663
-    second: morte.4_0
+      213: 1733700551405304676
+    second: "bot\xE3o_volume_ligado_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: morte.4_0
+      name: "bot\xE3o_volume_ligado_0"
       rect:
         serializedVersion: 2
-        x: 61
-        y: 1
-        width: 155
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 15
+        y: 6
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77e9be98175a33460800000000000000
-      internalID: 7220296534668844663
+      spriteID: 46b796947775f0810800000000000000
+      internalID: 1733700551405304676
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6de957c637e8fa84f92023714d6e0d54
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      morte.4_0: 7220296534668844663
+      "bot\xE3o_volume_ligado_0": 1733700551405304676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

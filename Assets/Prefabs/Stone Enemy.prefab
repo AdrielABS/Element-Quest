@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 7038251841858543712}
   - component: {fileID: 1910314512948830489}
   - component: {fileID: 2853816639627647790}
+  - component: {fileID: 5189166802406095773}
+  - component: {fileID: 5343160555437208114}
   m_Layer: 0
   m_Name: Stone Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,4 +181,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3dbb135d143d04e9e489994e8f1360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  damage: 1
+  maxHealth: 3
+--- !u!114 &5189166802406095773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3218370840652889583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf78aab18b5bea4a84da56743a0767b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
+  patrolSpeed: 1
+  chaseSpeed: 3
+  detectionRange: 4
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  attackRange: 1.4
+  attackDamage: 1
+  attackCooldown: 1.5
+--- !u!95 &5343160555437208114
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3218370840652889583}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c4ecc83ebbf79bf4e882c75da12ed74e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Settings")]
     public float speed = 5f;
     public float jumpForce = 8f;
+    public Transform AimPoint;
 
     [SerializeField] private Collider2D standingCollider;
     [SerializeField] private Collider2D deadCollider;
@@ -66,9 +67,10 @@ public class PlayerMovement : MonoBehaviour
         Move();
         Jump();
         DropThrough();
+        Aim();
     }
 
-    void Move()
+    public void Move()
     {
         float move = 0f;
 
@@ -76,20 +78,19 @@ public class PlayerMovement : MonoBehaviour
         {
             move = -1f;
 
-            if (Keyboard.current.shiftKey.isPressed)
-                move = -1.75f;
+            //if (Keyboard.current.shiftKey.isPressed)
+            //    move = -1.75f;
         }
 
         if (Keyboard.current.dKey.isPressed)
         {
             move = 1f;
 
-            if (Keyboard.current.shiftKey.isPressed)
-                move = 1.75f;
+            //if (Keyboard.current.shiftKey.isPressed)
+            //    move = 1.75f;
         }
 
-        rb.linearVelocity =
-            new Vector2(move * speed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
             if (move != 0 && isGrounded)
             {
@@ -107,23 +108,22 @@ public class PlayerMovement : MonoBehaviour
             {
             spriteRenderer.flipX = false;
             }
-            if (Mathf.Abs(move) >= 1.5f)
+            //if (Mathf.Abs(move) >= 1.5f)
 
-            {            
-                animator.SetBool("isRunning", true);
-            }
-            else
-            {
-                animator.SetBool("isRunning", false);
-            }
+            //{            
+            //    animator.SetBool("isRunning", true);
+            //}
+            //else
+            //{
+            //    animator.SetBool("isRunning", false);
+            //}
     }
 
     void Jump()
     {
         if (Keyboard.current.wKey.wasPressedThisFrame && isGrounded)
         {
-            rb.linearVelocity =
-                new Vector2(rb.linearVelocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
             if (rb.linearVelocity.y > 0.1f && !isGrounded)
             {
@@ -149,6 +149,18 @@ public class PlayerMovement : MonoBehaviour
             currentPlatform != null)
         {
             StartCoroutine(DropThroughPlatform());
+        }
+    }
+
+    void Aim()
+    {
+        if (spriteRenderer.flipX)
+        {
+            AimPoint.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            AimPoint.localScale = new Vector3(1, 1, 1);
         }
     }
 
