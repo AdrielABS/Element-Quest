@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour
 {
     public void BotaoJogar()
     {
-        SceneManager.LoadScene("Fasep");
+        SceneManager.LoadScene("Levelsel");
     }
 
     public void QuitGame()

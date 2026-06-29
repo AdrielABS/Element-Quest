@@ -20,6 +20,15 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
 
     
+        void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        GetComponentInChildren<Animator>();
+    }
+
     public void Die()
     {
         isDead = true;
@@ -34,13 +43,17 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         isGrounded = true;
-        animator.SetBool("isGrounded", true);
+
+        if (animator != null)
+            animator.SetBool("isGrounded", true);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
-        animator.SetBool("isGrounded", false);
+
+        if (animator != null)
+            animator.SetBool("isGrounded", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -51,13 +64,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        playerCollider = GetComponent<Collider2D>();
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
 
     void Update()
     {
@@ -172,7 +178,7 @@ public class PlayerMovement : MonoBehaviour
             true);
     rb.linearVelocity =
         new Vector2(rb.linearVelocity.x, -2f);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.75f);
 
         Physics2D.IgnoreCollision(
             playerCollider,

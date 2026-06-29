@@ -58,8 +58,7 @@ public class PlayerSpawns : MonoBehaviour
 {
     if (other.CompareTag("FallZone"))
     {
-        fallen = true;
-        Debug.Log("Você caiu!");
+        GameManager.Instance.RestartLevel();
     }
 }
 }

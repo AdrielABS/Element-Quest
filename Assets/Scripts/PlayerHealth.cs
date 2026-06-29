@@ -17,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
     private void Start()
     {
         Health = maxHealth;
+
         playerMovement = GetComponent<PlayerMovement>();
         HearthUpdate();
     }
@@ -35,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         if (Health <= 0)
         {
             playerMovement.Die();
+            GameManager.Instance.RestartLevel();
         }
     }
     public void HearthUpdate()

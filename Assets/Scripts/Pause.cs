@@ -4,9 +4,17 @@ using UnityEngine.InputSystem;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    [Header("Menu")]
+    public GameObject pausePanel;
+    public PlayerMovement playerMovement;
+    public PlayerAttack playerAttack;
 
-    private bool isPaused;
+    private bool isPaused = false;
+
+    void Start()
+    {
+        pausePanel.SetActive(false);
+    }
 
     void Update()
     {
@@ -21,27 +29,46 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
-        pauseMenu.SetActive(true);
+        playerMovement.enabled = false;
+        playerAttack.enabled = false;
+
+        pausePanel.SetActive(true);
+
         Time.timeScale = 0f;
+
         isPaused = true;
     }
 
     public void Resume()
     {
-        pauseMenu.SetActive(false);
+        playerMovement.enabled = true;
+        playerAttack.enabled = true;
+
+        pausePanel.SetActive(false);
+
         Time.timeScale = 1f;
+
         isPaused = false;
+    }
+
+    public void RestartLevel()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitGame()
     {
         Time.timeScale = 1f;
+
         Application.Quit();
     }
 }

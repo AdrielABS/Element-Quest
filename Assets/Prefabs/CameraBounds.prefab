@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647751827044349264}
-  - component: {fileID: 2544951802793855425}
+  - component: {fileID: 5542424084907941619}
   m_Layer: 0
   m_Name: CameraBounds
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &2544951802793855425
+--- !u!60 &5542424084907941619
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,9 +78,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 5, y: 15}
-      - {x: -24.470243, y: 15.107313}
-      - {x: -24.5239, y: -0.8626864}
-      - {x: 35.510246, y: -1.0236566}
-      - {x: 35.510246, y: 15.053658}
-  m_UseDelaunayMesh: 1
+    - - {x: 9.60906, y: 4.8934994}
+      - {x: -5.5312567, y: 4.8730035}
+      - {x: -5.550592, y: -5.0759683}
+      - {x: 9.615654, y: -5.147035}
+  m_UseDelaunayMesh: 0
