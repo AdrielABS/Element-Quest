@@ -5,8 +5,26 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3701bbb32ae35e74fba2a31a8dac5963
+  - enabled: 1
+    path: Assets/Scenes/Levelsel.unity
+    guid: d9098eece08afa74bafa192cebe980dc
+  - enabled: 1
+    path: Assets/Scenes/Fasepe.unity
+    guid: 761cd224144bd7e4dabaa8947619d7e7
+  - enabled: 1
+    path: Assets/Scenes/Fasefo.unity
+    guid: f9611d818b5face4091542325eaa090d
+  - enabled: 1
+    path: Assets/Scenes/Fasear.unity
+    guid: 1c9049014250ef94db13160484ac95d0
+  - enabled: 1
+    path: Assets/Scenes/Faseag.unity
+    guid: 39ee4c2a976ace84e8816231baf9c461
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}

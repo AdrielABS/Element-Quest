@@ -7,18 +7,19 @@ TagManager:
   - Platform
   - FallZone
   - Spawn
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - CameraBounds
   - Water
   - UI
   - 
   - 
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 

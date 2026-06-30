@@ -5,9 +5,15 @@ public class PlayerSpawns : MonoBehaviour
 {
     [Header("Spawn Settings")]
     public Transform mainSpawn;
+    public void Respawn()
+    {
+        transform.position = respawnPoint;
+        rb.linearVelocity = Vector2.zero;
+    }
 
     private Vector3 respawnPoint;
     private Rigidbody2D rb;
+    private PlayerSpawns playerSpawns;
 
     private bool fallen = false;
 
@@ -15,8 +21,15 @@ public class PlayerSpawns : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        respawnPoint = mainSpawn.position;
-    }
+        if (mainSpawn != null)
+        {
+            respawnPoint = mainSpawn.position;
+        }
+        else
+        {
+            Debug.LogError("Main Spawn não foi atribuído!");
+        }
+}
 
     void Update()
     {
@@ -45,8 +58,7 @@ public class PlayerSpawns : MonoBehaviour
 {
     if (other.CompareTag("FallZone"))
     {
-        fallen = true;
-        Debug.Log("Você caiu!");
+        GameManager.Instance.RestartLevel();
     }
 }
 }

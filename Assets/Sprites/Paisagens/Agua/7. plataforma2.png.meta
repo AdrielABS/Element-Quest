@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: aa70b658bce13c64fbcbc04aac45737e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -382997026884495351
+    second: 7. plataforma2_0
+  - first:
+      213: -7165894851014770825
+    second: 7. plataforma2_1
+  - first:
+      213: -396013040726993031
+    second: 7. plataforma2_2
+  - first:
+      213: -5134773027004318474
+    second: 7. plataforma2_3
+  - first:
+      213: -999434278897181901
+    second: 7. plataforma2_4
+  - first:
+      213: 153334431553905904
+    second: 7. plataforma2_5
+  - first:
+      213: -4273702908477792484
+    second: 7. plataforma2_6
+  - first:
+      213: -3458406478436460858
+    second: 7. plataforma2_7
+  - first:
+      213: 8045744424226116062
+    second: 7. plataforma2_8
+  - first:
+      213: -26776384652143367
+    second: 7. plataforma2_9
+  - first:
+      213: 8142013128480460668
+    second: 7. plataforma2_10
+  - first:
+      213: 1582820087879902046
+    second: 7. plataforma2_11
+  - first:
+      213: -4747361035472908391
+    second: 7. plataforma2_12
+  - first:
+      213: 7597437727294762353
+    second: 7. plataforma2_13
+  - first:
+      213: -8324198408378082802
+    second: 7. plataforma2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 7. plataforma2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 189
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908d486bb325faaf0800000000000000
+      internalID: -382997026884495351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 611
+        width: 361
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fb67b7990ad8c90800000000000000
+      internalID: -7165894851014770825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_2
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 611
+        width: 369
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9779b05dc34118af0800000000000000
+      internalID: -396013040726993031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 513
+        width: 166
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc762b132f9db8b0800000000000000
+      internalID: -5134773027004318474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 515
+        width: 137
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b1cfd81db4122f0800000000000000
+      internalID: -999434278897181901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_5
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 516
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f46b946ad0c02200800000000000000
+      internalID: 153334431553905904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 377
+        width: 231
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f90a809d1c0b4c0800000000000000
+      internalID: -4273702908477792484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_7
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 425
+        width: 217
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c692eb91a54100d0800000000000000
+      internalID: -3458406478436460858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_8
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 445
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1d397fce938af60800000000000000
+      internalID: 8045744424226116062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_9
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 447
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f49070250fd0aff0800000000000000
+      internalID: -26776384652143367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_10
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 385
+        width: 198
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f05a75dcd3ef070800000000000000
+      internalID: 8142013128480460668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 456
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e532f69db7e47f510800000000000000
+      internalID: 1582820087879902046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 406
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f4b147a4cfd1eb0800000000000000
+      internalID: -4747361035472908391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_13
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 268
+        width: 109
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d2e8a2c558f6960800000000000000
+      internalID: 7597437727294762353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7. plataforma2_14
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 292
+        width: 251
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a90cca6a18a7c80800000000000000
+      internalID: -8324198408378082802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      7. plataforma2_0: -382997026884495351
+      7. plataforma2_1: -7165894851014770825
+      7. plataforma2_10: 8142013128480460668
+      7. plataforma2_11: 1582820087879902046
+      7. plataforma2_12: -4747361035472908391
+      7. plataforma2_13: 7597437727294762353
+      7. plataforma2_14: -8324198408378082802
+      7. plataforma2_2: -396013040726993031
+      7. plataforma2_3: -5134773027004318474
+      7. plataforma2_4: -999434278897181901
+      7. plataforma2_5: 153334431553905904
+      7. plataforma2_6: -4273702908477792484
+      7. plataforma2_7: -3458406478436460858
+      7. plataforma2_8: 8045744424226116062
+      7. plataforma2_9: -26776384652143367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
