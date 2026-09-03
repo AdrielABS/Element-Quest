@@ -24,7 +24,6 @@ public class EnemyAIShooter : MonoBehaviour
     public Transform shootPoint;
     public float shootCooldown = 2f;
 
-
     private Transform player;
     private Transform targetPoint;
 
@@ -34,8 +33,8 @@ public class EnemyAIShooter : MonoBehaviour
 
     private float nextAttack;
     private float nextShoot;
-    private bool facingLeft;
 
+    private bool facingLeft;
 
     void Start()
     {
@@ -45,26 +44,26 @@ public class EnemyAIShooter : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        targetPoint = pointB;
+        if (pointA != null && pointB != null)
+            targetPoint = pointB;
     }
-
 
     void Update()
     {
-        float distance = Vector2.Distance(
-            transform.position,
-            player.position);
+        if (player == null)
+            return;
 
+        float distance = Vector2.Distance(transform.position, player.position);
 
-        if(distance <= attackRange)
+        if (distance <= attackRange)
         {
             Attack();
         }
-        else if(distance <= shootRange)
+        else if (distance <= shootRange)
         {
             Shoot();
         }
-        else if(distance <= detectionRange)
+        else if (distance <= detectionRange)
         {
             Chase();
         }
@@ -74,126 +73,104 @@ public class EnemyAIShooter : MonoBehaviour
         }
     }
 
-
-
     void Patrol()
     {
+        if (pointA == null || pointB == null)
+        {
+            animator.SetBool("IsWalking", false);
+            return;
+        }
+
         animator.SetBool("IsWalking", true);
 
-        transform.position =
-        Vector2.MoveTowards(
+        transform.position = Vector2.MoveTowards(
             transform.position,
             targetPoint.position,
             patrolSpeed * Time.deltaTime);
 
-
-        if(Vector2.Distance(
-            transform.position,
-            targetPoint.position) < 0.1f)
+        if (Vector2.Distance(transform.position, targetPoint.position) < 0.1f)
         {
-            targetPoint =
-            targetPoint == pointA ? pointB : pointA;
+            targetPoint = targetPoint == pointA ? pointB : pointA;
         }
 
-
-        Flip(targetPoint.position.x -
-        transform.position.x);
+        Flip(targetPoint.position.x - transform.position.x);
     }
-
-
 
     void Chase()
     {
         animator.SetBool("IsWalking", true);
 
-
-        transform.position =
-        Vector2.MoveTowards(
+        transform.position = Vector2.MoveTowards(
             transform.position,
             player.position,
             chaseSpeed * Time.deltaTime);
 
-
-        Flip(player.position.x -
-        transform.position.x);
+        Flip(player.position.x - transform.position.x);
     }
-
-
 
     void Attack()
     {
         rb.linearVelocity = Vector2.zero;
-
         animator.SetBool("IsWalking", false);
 
+        Flip(player.position.x - transform.position.x);
 
-        if(Time.time < nextAttack)
+        if (Time.time < nextAttack)
             return;
 
-
-        nextAttack =
-        Time.time + attackCooldown;
-
+        nextAttack = Time.time + attackCooldown;
 
         animator.SetTrigger("IsAttacking");
 
+        PlayerHealth hp = player.GetComponent<PlayerHealth>();
 
-        PlayerHealth hp =
-        player.GetComponent<PlayerHealth>();
-
-
-        if(hp != null)
+        if (hp != null)
             hp.TakeDamage(attackDamage);
     }
-
-
-
 
     void Shoot()
     {
         rb.linearVelocity = Vector2.zero;
-
         animator.SetBool("IsWalking", false);
 
+        // Faz o inimigo olhar para o jogador
+        Flip(player.position.x - transform.position.x);
 
-        if(Time.time < nextShoot)
+        if (Time.time < nextShoot)
             return;
 
-
-        nextShoot =
-        Time.time + shootCooldown;
-
+        nextShoot = Time.time + shootCooldown;
 
         animator.SetTrigger("IsShooting");
     }
 
-
-
+    // Chame este método por um Animation Event
     public void FireBullet()
     {
+        if (bulletPrefab == null || shootPoint == null)
+            return;
+
         GameObject bullet = Instantiate(
             bulletPrefab,
             shootPoint.position,
-            Quaternion.identity
-        );
+            Quaternion.identity);
 
+        EnemyBullet bulletScript = bullet.GetComponent<EnemyBullet>();
 
-        EnemyBullet bulletScript =
-        bullet.GetComponent<EnemyBullet>();
-
-
-        bulletScript.SetDirection(facingLeft);
+        if (bulletScript != null)
+        {
+            bulletScript.SetDirection(facingLeft);
+        }
     }
-
 
     void Flip(float direction)
     {
-        if(direction > 0)
+        if (direction > 0)
         {
             spriteRenderer.flipX = false;
             facingLeft = false;
         }
-        else if(direction < 0)
+        else if (direction < 0)
         {
             spriteRenderer.flipX = true;
             facingLeft = true;
