@@ -247,6 +247,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1381116709}
+    - target: {fileID: 1684754387213294868, guid: 7a9c464565aac96409124762afc23b13, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3959497217597080004, guid: 7a9c464565aac96409124762afc23b13, type: 3}
       propertyPath: playerAttack
       value: 
@@ -1629,7 +1633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7281334070980309452, guid: 74edbbd42a8d95b4fb658b05afa9367b, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7757915243262120743, guid: 74edbbd42a8d95b4fb658b05afa9367b, type: 3}
       propertyPath: m_Enabled
