@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Element Quest.slnx",
+    "dotnet.defaultSolution": "Element-Quest.slnx",
     "dotnet.enableWorkspaceBasedDevelopment": false
 }
